@@ -133,3 +133,6 @@ long_single_word_string = "askldfjlweklrjweifjlsdfliwjlierjilsildfjlslfij" * 3
 
 st.code(long_single_word_string)
 st.code(long_single_word_string, wrap_lines=True)
+
+with st.container(border=True, height=200):
+    st.code(code, height="stretch")
